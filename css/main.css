@@ -1,0 +1,79 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+
+}
+
+.party {
+  background-image: url("../assets/images/party.jpg");
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.form {
+  margin-top: 80px;
+}
+
+.register {
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.btn{
+  background-color: rgba(235, 222, 240, 0.5);
+  border: none;
+  color: white;
+}
+
+.form-control {
+  background-color:transparent;
+}
+
+.users {
+  text-decoration: none;
+  list-style: none;
+}
+
+.users > li {
+ display: inline-block;
+ width: 10%;
+ margin-top: 40px;
+ margin-right: 10px;
+}
+
+.users > li > a > img {
+  border-radius: 100%;
+}
+
+.wellcome {
+  color:white;
+  font-size: 30px;
+}
+
+.wellcome > span {
+  padding-top: 20px;
+  font-family: 'Lobster', cursive;
+}
+
+.title {
+  margin-top: 30px;
+}
+
+.img-logo {
+  margin-top: 60px;
+}
+
+.logo {
+  width: 15%;
+  margin-top: 20px;
+}
+
+:hover .btn {
+  background: rgba(199, 142, 212, 0.5);
+}
